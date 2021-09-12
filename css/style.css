@@ -1,0 +1,118 @@
+
+#cont-principal{
+    background-color: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    transition: 2s;
+}
+#cont-principal .cuerpo{
+    padding-top: 170px;
+    position: relative;
+    z-index: 10;
+}
+#cont-principal .cuerpo .sombrero{
+    position: absolute;
+    top: 103px;
+    left: 225px;
+}
+#cont-principal .cuerpo  .zapatoIzq{
+    position: absolute;
+    bottom: -27px;
+    left: 201px;
+    z-index: -2;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo  .zapatoDe{
+    position: absolute;
+    right: 190px;
+    bottom: -28px;
+    z-index: -2;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo .orejaIzq{
+    position: absolute;
+    right: 422px;
+    bottom: 200px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .orejaDe{
+    position: absolute;
+    right: 171px;
+    bottom: 203px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .ojoIz{
+    position: absolute;
+    right: 345px;
+    bottom: 200px;
+}
+
+#cont-principal .cuerpo .ojoDe{
+    position: absolute;
+    right: 260px;
+    bottom: 200px;
+}
+
+#cont-principal .cuerpo .bigote{
+    position: absolute;
+    right: 256px;
+    bottom: 54px;
+}
+
+#cont-principal .cuerpo .nariz{
+    position: absolute;
+    right: 278px;
+    bottom: 99px;
+}
+
+#cont-principal .cuerpo:hover .nariz{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#cont-principal .cuerpo:hover .sombrero{
+    transform: rotate(-10deg);
+}
+
+#cont-principal .cuerpo:hover .zapatoIzq{
+    transform: rotate(-10deg);
+}
+
+#cont-principal .cuerpo:hover .zapatoIzq{
+    transform: rotate(-10deg);
+}
+
+#cont-principal .cuerpo:hover .zapatoDe{
+    transform: rotate(10deg);
+}
+
+#cont-principal .cuerpo:hover .ojoIz{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#cont-principal .cuerpo:hover .ojoDe{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#cont-principal .cuerpo:hover .orejaIzq{
+    transform: rotate(80deg);
+}
+
+#cont-principal .cuerpo:hover .orejaDe{
+    transform: rotate(80deg);
+}
+
+#cont-principal:hover{
+    background-color: forestgreen;
+    border-radius: 100%;
+
+}
